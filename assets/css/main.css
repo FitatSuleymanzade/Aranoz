@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+}
+header .container {
+  width: 95%;
+}
+header .container .collapseDiv ul {
+  margin: auto;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+header .container .iconDiv {
+  display: flex;
+  gap: 20px;
+}
+
+#sofa {
+  width: 100%;
+}
+#sofa .container {
+  width: 95%;
+  padding-top: 30px;
+}
+#sofa .container .row {
+  padding-top: 30px;
+}
+#sofa .container .row .sofatxt {
+  padding: 30px;
+}
+#sofa .container .row .sofatxt h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+#sofa .container .row .sofatxt p {
+  color: grey;
+  padding-top: 20px;
+}
+#sofa .container .row .sofatxt .buttoon {
+  padding-top: 30px;
+}
+#sofa .container .row .sofatxt .buttoon button {
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  color: white;
+  border: none;
+}
+#sofa .container .row .sofaimg img {
+  max-width: 100%;
+}
+
+#puffsec {
+  width: 100%;
+  background-color: #ECFDFF;
+}
+#puffsec .container {
+  width: 95%;
+}
+#puffsec .container .row {
+  padding: 30px;
+}
+#puffsec .container .row .puffimg {
+  padding-top: 30px;
+}
+#puffsec .container .row .puffimg img {
+  max-width: 100%;
+}
+#puffsec .container .row .pufftext {
+  padding-top: 30px;
+}
+#puffsec .container .row .pufftext h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#puffsec .container .row .pufftext .date {
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#puffsec .container .row .pufftext .date p {
+  color: grey;
+  font-weight: 600;
+}
+#puffsec .container .row .pufftext .date span {
+  font-size: 25px;
+  font-weight: 700;
+}
+#puffsec .container .row .pufftext .inpbtn {
+  width: 90%;
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+#puffsec .container .row .pufftext .inpbtn input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 17px;
+  width: 70%;
+}
+#puffsec .container .row .pufftext .inpbtn button {
+  border: none;
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+#apisection .divbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#apisection .divbtn #btn {
+  font-size: 15px;
+  background-color: #FF4439;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container {
+  width: 95%;
+}
+#apisection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#apisection .container .row .apitext {
+  display: flex;
+  padding: 30px;
+}
+#apisection .container .row .apitext h3 {
+  font-size: 40px;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+#apisection .container .row .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+#apisection .container .row .buttons input {
+  width: 90px;
+  height: 33px;
+  padding-left: 20px;
+  border: 2px solid #FF4439;
+}
+#apisection .container .row .buttons input #inpp {
+  padding: 10px;
+}
+#apisection .container .row .buttons button {
+  font-size: 15px;
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  border: none;
+  margin-left: -10px;
+}
+#apisection .container .row .buttons button a i {
+  color: white;
+}
+#apisection .container .row .buttons button a i:hover {
+  color: #FF4439;
+}
+#apisection .container .row .buttons button:hover {
+  background-color: white;
+  color: #FF4439;
+  transition: 0.5s;
+}
+#apisection .container .row #apidiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#apisection .container .row #apidiv .boxDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FF4439;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn {
+  font-size: 15px;
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn:hover {
+  background-color: white;
+  color: #FF4439;
+  transition: 0.5s;
+}
+
+#subscribe {
+  width: 100%;
+  padding: 30px;
+  background-image: url(/img/subscribe_area.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+}
+#subscribe .container {
+  width: 95%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#subscribe .container .row .subscribetext {
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#subscribe .container .row .subscribetext p {
+  padding: 30px;
+  color: red;
+}
+#subscribe .container .row .subscribetext h1 {
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+#subscribe .container .row .subscribetext .inpbtn {
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+#subscribe .container .row .subscribetext .inpbtn input {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 17px;
+  width: 70%;
+}
+#subscribe .container .row .subscribetext .inpbtn button {
+  border: none;
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+#formimp {
+  width: 100%;
+  padding-top: 30px;
+}
+#formimp .container {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#formimp .container .formsec {
+  padding: 20px;
+}
+#formimp .container .formsec h4 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+#formimp .container .formsec p {
+  color: grey;
+  text-align: center;
+}
+#formimp .container #myFORM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#formimp .container #myFORM #myFORM input {
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid rgb(232, 142, 232);
+  border-radius: 25px;
+}
+#formimp .container #myFORM #submit {
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+#formimp .container #submit:hover {
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#productsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#productsList .boxdi {
+  display: flex;
+  flex-direction: column;
+}
+#productsList .boxdi img {
+  margin-bottom: 30px;
+}
+#productsList .boxdi button {
+  width: 100px;
+  border: none;
+  background-image: linear-gradient(to right, #FF1053, #FF5830);
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  outline: none;
+}
+#productsList .boxdi button:hover {
+  background-image: linear-gradient(to right, #FF1053, #ffda33);
+}

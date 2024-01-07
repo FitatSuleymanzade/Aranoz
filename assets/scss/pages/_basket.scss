@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#productsList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .boxdi{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-bottom: 30px;
+        }
+        button{
+            width: 100px;
+            border: none;
+            background-image: linear-gradient(to right,#FF1053,#FF5830);
+            height: 50px;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+            outline: none;
+            &:hover{
+                background-image: linear-gradient(to right,#FF1053,#ffda33);
+            }
+        }
+    }
+}
